@@ -1,0 +1,432 @@
+[
+    {
+        "consumidor_id": 1,
+        "cpf_cnpj": 64434317075,
+        "nome": "Mauricio Costa",
+        "data_nascimento": "1989-09-25T00:00:00",
+        "perfil": "Devedor Contumaz",
+        "divida_id": 75173,
+        "codigo_contrato": 50010001,
+        "data_origem": "2020-11-15T00:00:00",
+        "valor_vencido": "R$ 2263.08",
+        "valor_multa": "R$ 45.26",
+        "valor_juros": "R$ 5446.55",
+        "produto": "Empréstimo",
+        "loja": "Loja 1",
+        "Opcoes_Pagamento": [
+            {
+                "opcao_pagamento_id": 278407055,
+                "valor_entrada": 0,
+                "valor_parcela": "460,09",
+                "valor_desconto": "7336,86",
+                "valor_negociado": "7796,95",
+                "quantidade_parcelas": 1,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278407060,
+                "valor_entrada": 0,
+                "valor_parcela": "126,09",
+                "valor_desconto": "7040,39",
+                "valor_negociado": "7796,95",
+                "quantidade_parcelas": 6,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278407066,
+                "valor_entrada": 0,
+                "valor_parcela": "63,05",
+                "valor_desconto": "7040,39",
+                "valor_negociado": "7796,95",
+                "quantidade_parcelas": 12,
+                "data_primeiro_boleto": "31/08/2024"
+            }
+        ]
+    },
+    {
+        "consumidor_id": 2,
+        "cpf_cnpj": 34823183010,
+        "nome": "Naiara Silva",
+        "data_nascimento": "1992-09-18T00:00:00",
+        "perfil": "Neutro",
+        "divida_id": 82308,
+        "codigo_contrato": 50010002,
+        "data_origem": "2020-11-15T00:00:00",
+        "valor_vencido": "R$ 2388.87",
+        "valor_multa": "R$ 47.78",
+        "valor_juros": "R$ 5749.28",
+        "produto": "Empréstimo",
+        "loja": "Loja 1",
+        "Opcoes_Pagamento": [
+            {
+                "opcao_pagamento_id": 278348091,
+                "valor_entrada": 0,
+                "valor_parcela": "485,67",
+                "valor_desconto": "7744,66",
+                "valor_negociado": "8230,33",
+                "quantidade_parcelas": 1,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278348096,
+                "valor_entrada": 0,
+                "valor_parcela": "133,1",
+                "valor_desconto": "7431,72",
+                "valor_negociado": "8230,33",
+                "quantidade_parcelas": 6,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278348102,
+                "valor_entrada": 0,
+                "valor_parcela": "66,55",
+                "valor_desconto": "7431,72",
+                "valor_negociado": "8230,33",
+                "quantidade_parcelas": 12,
+                "data_primeiro_boleto": "31/08/2024"
+            }
+        ]
+    },
+    {
+        "consumidor_id": 3,
+        "cpf_cnpj": 52268232077,
+        "nome": "Fernanda Cunha",
+        "data_nascimento": "1994-06-17T00:00:00",
+        "perfil": "Bom Pagador",
+        "divida_id": 83150,
+        "codigo_contrato": 50010003,
+        "data_origem": "2020-09-15T00:00:00",
+        "valor_vencido": "R$ 3225.55",
+        "valor_multa": "R$ 64.51",
+        "valor_juros": "R$ 8188.55",
+        "produto": "Cartão de Crédito",
+        "loja": "Loja 1",
+        "Opcoes_Pagamento": [
+            {
+                "opcao_pagamento_id": 278381382,
+                "valor_entrada": 0,
+                "valor_parcela": "655,77",
+                "valor_desconto": "10822,84",
+                "valor_negociado": "11478,61",
+                "quantidade_parcelas": 1,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278381390,
+                "valor_entrada": 0,
+                "valor_parcela": "89,86",
+                "valor_desconto": "10400,29",
+                "valor_negociado": "11478,61",
+                "quantidade_parcelas": 12,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278381396,
+                "valor_entrada": 0,
+                "valor_parcela": "179,72",
+                "valor_desconto": "10400,29",
+                "valor_negociado": "11478,61",
+                "quantidade_parcelas": 6,
+                "data_primeiro_boleto": "31/08/2024"
+            }
+        ]
+    },
+    {
+        "consumidor_id": 4,
+        "cpf_cnpj": 27192374008,
+        "nome": "Jose Santos",
+        "data_nascimento": "1992-03-15T00:00:00",
+        "perfil": "Bom Pagador",
+        "divida_id": 84973,
+        "codigo_contrato": 50010004,
+        "data_origem": "2020-08-15T00:00:00",
+        "valor_vencido": "R$ 3734.54",
+        "valor_multa": "R$ 74.69",
+        "valor_juros": "R$ 9626.47",
+        "produto": "Financiamento",
+        "loja": "Loja 2",
+        "Opcoes_Pagamento": [
+            {
+                "opcao_pagamento_id": 278475945,
+                "valor_entrada": 0,
+                "valor_parcela": "759,25",
+                "valor_desconto": "12745,86",
+                "valor_negociado": "13505,11",
+                "quantidade_parcelas": 1,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278475956,
+                "valor_entrada": 0,
+                "valor_parcela": "104,04",
+                "valor_desconto": "12256,64",
+                "valor_negociado": "13505,11",
+                "quantidade_parcelas": 12,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278475962,
+                "valor_entrada": 0,
+                "valor_parcela": "208,08",
+                "valor_desconto": "12256,64",
+                "valor_negociado": "13505,11",
+                "quantidade_parcelas": 6,
+                "data_primeiro_boleto": "31/08/2024"
+            }
+        ]
+    },
+    {
+        "consumidor_id": 5,
+        "cpf_cnpj": 16632790046,
+        "nome": "Lorraine Maia",
+        "data_nascimento": "1995-08-28T00:00:00",
+        "perfil": "Devedor Contumaz",
+        "divida_id": 87182,
+        "codigo_contrato": 50010005,
+        "data_origem": "2020-02-05T00:00:00",
+        "valor_vencido": "R$ 484.26",
+        "valor_multa": "R$ 9.69",
+        "valor_juros": "R$ 1430.08",
+        "produto": "Cartão de Crédito",
+        "loja": "Loja 2",
+        "Opcoes_Pagamento": [
+            {
+                "opcao_pagamento_id": 278445451,
+                "valor_entrada": 0,
+                "valor_parcela": "98,46",
+                "valor_desconto": "1825,57",
+                "valor_negociado": "1924,03",
+                "quantidade_parcelas": 1,
+                "data_primeiro_boleto": "31/08/2024"
+            }
+        ]
+    },
+    {
+        "consumidor_id": 6,
+        "cpf_cnpj": 41326678043,
+        "nome": "Luan De Melo",
+        "data_nascimento": "1993-08-19T00:00:00",
+        "perfil": "Neutro",
+        "divida_id": 87515,
+        "codigo_contrato": 50010006,
+        "data_origem": "2020-09-10T00:00:00",
+        "valor_vencido": "R$ 2696.7",
+        "valor_multa": "R$ 53.93",
+        "valor_juros": "R$ 6871.05",
+        "produto": "Cartão de Crédito",
+        "loja": "Loja 2",
+        "Opcoes_Pagamento": [
+            {
+                "opcao_pagamento_id": 278496432,
+                "valor_entrada": 0,
+                "valor_parcela": "548,25",
+                "valor_desconto": "9073,43",
+                "valor_negociado": "9621,68",
+                "quantidade_parcelas": 1,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278496437,
+                "valor_entrada": 0,
+                "valor_parcela": "75,13",
+                "valor_desconto": "8720,16",
+                "valor_negociado": "9621,68",
+                "quantidade_parcelas": 12,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278496443,
+                "valor_entrada": 0,
+                "valor_parcela": "150,25",
+                "valor_desconto": "8720,16",
+                "valor_negociado": "9621,68",
+                "quantidade_parcelas": 6,
+                "data_primeiro_boleto": "31/08/2024"
+            }
+        ]
+    },
+    {
+        "consumidor_id": 7,
+        "cpf_cnpj": 19965899037,
+        "nome": "Guilherme Frazao",
+        "data_nascimento": "1997-03-05T00:00:00",
+        "perfil": "Bom Pagador",
+        "divida_id": 89427,
+        "codigo_contrato": 50010007,
+        "data_origem": "2020-09-15T00:00:00",
+        "valor_vencido": "R$ 4160.18",
+        "valor_multa": "R$ 83.2",
+        "valor_juros": "R$ 10561.26",
+        "produto": "Cartão de Crédito",
+        "loja": "Loja 2",
+        "Opcoes_Pagamento": [
+            {
+                "opcao_pagamento_id": 278509117,
+                "valor_entrada": 0,
+                "valor_parcela": "845,78",
+                "valor_desconto": "13958,86",
+                "valor_negociado": "14804,64",
+                "quantidade_parcelas": 1,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278509128,
+                "valor_entrada": 0,
+                "valor_parcela": "115,9",
+                "valor_desconto": "13413,88",
+                "valor_negociado": "14804,64",
+                "quantidade_parcelas": 12,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278509134,
+                "valor_entrada": 0,
+                "valor_parcela": "231,79",
+                "valor_desconto": "13413,88",
+                "valor_negociado": "14804,64",
+                "quantidade_parcelas": 6,
+                "data_primeiro_boleto": "31/08/2024"
+            }
+        ]
+    },
+    {
+        "consumidor_id": 8,
+        "cpf_cnpj": 7871803000,
+        "nome": "Honorio Alves",
+        "data_nascimento": "1960-05-06T00:00:00",
+        "perfil": "Neutro",
+        "divida_id": 93047,
+        "codigo_contrato": 50010008,
+        "data_origem": "2019-04-10T00:00:00",
+        "valor_vencido": "R$ 1012.95",
+        "valor_multa": "R$ 20.26",
+        "valor_juros": "R$ 3558",
+        "produto": "Cartão de Crédito",
+        "loja": "Loja 3",
+        "Opcoes_Pagamento": [
+            {
+                "opcao_pagamento_id": 278414701,
+                "valor_entrada": 0,
+                "valor_parcela": "171,5",
+                "valor_desconto": "4419,71",
+                "valor_negociado": "4591,21",
+                "quantidade_parcelas": 1,
+                "data_primeiro_boleto": "31/08/2024"
+            }
+        ]
+    },
+    {
+        "consumidor_id": 9,
+        "cpf_cnpj": 48249984099,
+        "nome": "Dalton Pereira",
+        "data_nascimento": "1969-03-26T00:00:00",
+        "perfil": "Devedor Contumaz",
+        "divida_id": 94008,
+        "codigo_contrato": 50010009,
+        "data_origem": "2020-09-10T00:00:00",
+        "valor_vencido": "R$ 2208.88",
+        "valor_multa": "R$ 44.18",
+        "valor_juros": "R$ 5628.11",
+        "produto": "Cartão de Crédito",
+        "loja": "Loja 3",
+        "Opcoes_Pagamento": [
+            {
+                "opcao_pagamento_id": 278540687,
+                "valor_entrada": 0,
+                "valor_parcela": "449,08",
+                "valor_desconto": "7432,09",
+                "valor_negociado": "7881,17",
+                "quantidade_parcelas": 1,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278540692,
+                "valor_entrada": 0,
+                "valor_parcela": "123,08",
+                "valor_desconto": "7142,72",
+                "valor_negociado": "7881,17",
+                "quantidade_parcelas": 6,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278540698,
+                "valor_entrada": 0,
+                "valor_parcela": "61,54",
+                "valor_desconto": "7142,72",
+                "valor_negociado": "7881,17",
+                "quantidade_parcelas": 12,
+                "data_primeiro_boleto": "31/08/2024"
+            }
+        ]
+    },
+    {
+        "consumidor_id": 10,
+        "cpf_cnpj": 28200944069,
+        "nome": "Lidiomar Soares",
+        "data_nascimento": "1989-05-21T00:00:00",
+        "perfil": "Devedor Contumaz",
+        "divida_id": 174294,
+        "codigo_contrato": 50010010,
+        "data_origem": "2021-04-10T00:00:00",
+        "valor_vencido": "R$ 1495.85",
+        "valor_multa": "R$ 29.92",
+        "valor_juros": "R$ 3221.98",
+        "produto": "Cartão de Crédito",
+        "loja": "Loja 3",
+        "Opcoes_Pagamento": [
+            {
+                "opcao_pagamento_id": 278417096,
+                "valor_entrada": 0,
+                "valor_parcela": "304,11",
+                "valor_desconto": "4443,64",
+                "valor_negociado": "4747,75",
+                "quantidade_parcelas": 1,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278417101,
+                "valor_entrada": 0,
+                "valor_parcela": "83,35",
+                "valor_desconto": "4247,68",
+                "valor_negociado": "4747,75",
+                "quantidade_parcelas": 6,
+                "data_primeiro_boleto": "31/08/2024"
+            }
+        ]
+    },
+    {
+        "consumidor_id": 11,
+        "cpf_cnpj": 1815959070,
+        "nome": "Israel Colares",
+        "data_nascimento": "1992-09-19T00:00:00",
+        "perfil": "Devedor Contumaz",
+        "divida_id": 6392831,
+        "codigo_contrato": 50010011,
+        "data_origem": "2021-05-10T00:00:00",
+        "valor_vencido": "R$ 1109.3",
+        "valor_multa": "R$ 22.19",
+        "valor_juros": "R$ 2327.53",
+        "produto": "Cartão de Crédito",
+        "loja": "Loja 4",
+        "Opcoes_Pagamento": [
+            {
+                "opcao_pagamento_id": 278526225,
+                "valor_entrada": 0,
+                "valor_parcela": "225,53",
+                "valor_desconto": "3233,49",
+                "valor_negociado": "3459,02",
+                "quantidade_parcelas": 1,
+                "data_primeiro_boleto": "31/08/2024"
+            },
+            {
+                "opcao_pagamento_id": 278526230,
+                "valor_entrada": 0,
+                "valor_parcela": "61,81",
+                "valor_desconto": "3088,17",
+                "valor_negociado": "3459,02",
+                "quantidade_parcelas": 6,
+                "data_primeiro_boleto": "31/08/2024"
+            }
+        ]
+    }
+]
