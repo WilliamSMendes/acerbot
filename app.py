@@ -1,5 +1,4 @@
 import os
-#from dotenv import load_dotenv
 import streamlit as st
 from openai import OpenAI
 from assistant import (
@@ -12,11 +11,6 @@ from assistant import (
     save_messages_to_file
 )
 
-#load_dotenv()
-# OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-# KINDER_ASSISTANT_ID = os.getenv("KINDER_ASSISTANT_ID")
-# AGGRESSIVE_ASSISTANT_ID = os.getenv("AGGRESSIVE_ASSISTANT_ID")
-# FORMAL_ASSISTANT_ID = os.getenv("FORMAL_ASSISTANT_ID")
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 KINDER_ASSISTANT_ID = st.secrets["KINDER_ASSISTANT_ID"]
 AGGRESSIVE_ASSISTANT_ID = st.secrets["AGGRESSIVE_ASSISTANT_ID"]
@@ -86,7 +80,7 @@ if user_message := st.chat_input("Digite algo..."):
     st.session_state.messages.append({"role": "user", "content": user_message})
     
     # Extract CPF and DOB from user message
-    cpf, dob = extract_cpf_and_dob(st.session_state.messages)
+    cpf, dob = extract_cpf_and_dob(st.session_state.messages, role='assistant')
     if cpf and dob:
         st.session_state.cpf = cpf
         st.session_state.dob = dob
