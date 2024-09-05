@@ -2,13 +2,10 @@ import os
 import re
 import json
 import uuid
-#from dotenv import load_dotenv
 import streamlit as st
 from openai import OpenAI, AssistantEventHandler
 from typing_extensions import override
 
-#load_dotenv()
-#OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 client = OpenAI(api_key=OPENAI_API_KEY)
 
@@ -107,6 +104,7 @@ def assistant_response(thread_id, assistant_id, instructions=""):
         thread_id=thread_id, assistant_id=assistant_id, additional_instructions=instructions
     )
     messages = list(client.beta.threads.messages.list(thread_id=thread_id, run_id=run.id))
+    print(messages)
     message_content = messages[0].content[0].text
     return message_content.value
 
@@ -125,12 +123,13 @@ def load_json_data(file_path):
         return json.load(file)
 
 
-def extract_cpf_and_dob(messages):
+def extract_cpf_and_dob(messages, role='assistant'):
     """
-    Extract CPF and date of birth from the list of messages.
+    Extract CPF and date of birth from the list of messages of a specific role.
 
     Args:
         messages (list): A list of messages.
+        role (str): The role of the messages to filter (default is 'assistant').
 
     Returns:
         tuple: The CPF and date of birth if found, otherwise (None, None).
@@ -138,7 +137,9 @@ def extract_cpf_and_dob(messages):
     cpf_pattern = r"\b\d{3}\.?\d{3}\.?\d{3}-?\d{2}\b"
     dob_pattern = r"\b\d{2}/\d{2}/\d{4}\b"
 
-    for message in reversed(messages):
+    filtered_messages = [msg for msg in messages if msg.get('role') == role]
+
+    for message in reversed(filtered_messages):
         text = message.get('content', '')
         
         cpf_match = re.search(cpf_pattern, text)
@@ -174,14 +175,11 @@ def search_cpf_and_dob(json_data, cpf, dob):
                 return f"This is the client information to use: {user}"
             else:
                 return (
-                    f"""PRIORITY: Say to the client that the CPF {cpf} and the date of birth {dob} are incorrect like "
-                    This may be due to an error in the data or if the CPF is not registered in our system"
+                    f"""Say to the client that the CPF {cpf} and the date of birth {dob} weren't found in our system 
                     and ask the client to provide the information again or would prefer you to help with another question"""
                 )
-    
     return (
-        f"""PRIORITY: Say to the client that the CPF {cpf} and the date of birth {dob} are incorrect like "
-        This may be due to an error in the data or if the CPF is not registered in our system"
+        f"""Say to the client that the CPF {cpf} and the date of birth {dob} weren't found in our system 
         and ask the client to provide the information again or would prefer you to help with another question"""
     )
 
